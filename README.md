@@ -17,6 +17,7 @@ Feature :<br />
 - Custom BIN for generate card<br />
 - Multithreads<br />
 - Fast Generate<br />
+- auto save file generator<br />
   
 ## Install on desktop : 
 - Install Python 3 ++
