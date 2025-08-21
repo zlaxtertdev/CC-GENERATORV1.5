@@ -32,7 +32,7 @@ Feature :<br />
     $ python gen.py
 
 ## Screenshot Tools
-<img src="https://github.com/zlaxtertdev/CC-GENERATORV1.5/img/blob/main/ress.png">
+<img src="https://github.com/zlaxtertdev/CC-GENERATORV1.5/blob/main/img/ress.png">
 
 
 
