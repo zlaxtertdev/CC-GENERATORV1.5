@@ -1,3 +1,11 @@
+# ==========> PLEASE DONT CHANGE THIS
+#   SCRIPT   : CC GENERATOR 
+#   VERSION  : 1.5
+#   AUTHOR   : ZLAXTERT
+#   TEAM     : DARKXCODE
+#   TELEGRAM : https://t.me/zlaxtert/
+# ==========> END
+
 import requests
 import json
 import os
@@ -110,7 +118,7 @@ def load_apikey():
     config = configparser.ConfigParser()
     
     if not os.path.exists('settings.ini'):
-        # Buat file settings.ini jika belum ada
+        # Create a settings.ini file if it doesn't exist.
         config['SETTINGS'] = {'APIKEY': 'PASTE YOUR APIKEY HERE'}
         with open('settings.ini', 'w') as configfile:
             config.write(configfile)
@@ -180,7 +188,7 @@ def get_bin_number():
             print("[!] BIN cannot be empty!")
             continue
             
-        # Hapus spasi dan karakter non-digit
+        #Remove spaces and non-digit characters
         bin_input = ''.join(filter(str.isdigit, bin_input))
             
         if len(bin_input) < 6:
@@ -306,4 +314,5 @@ def main():
     print(f"{'='*60}")
 
 if __name__ == "__main__":
+
     main()
